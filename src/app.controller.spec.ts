@@ -1,7 +1,6 @@
 import { Test, TestingModule } from '@nestjs/testing';
 import { AppController } from './app.controller';
 import { AppService } from './app.service';
-import puppeteer from 'puppeteer';
 
 describe('AppController', () => {
   let appController: AppController;

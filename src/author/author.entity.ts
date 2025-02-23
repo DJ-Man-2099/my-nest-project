@@ -1,4 +1,4 @@
-import { Tweet } from 'src/tweets/tweets.entity';
+import { Tweet } from '@/tweets/tweets.entity';
 import { Entity, PrimaryGeneratedColumn, Column, OneToMany } from 'typeorm';
 
 @Entity()
